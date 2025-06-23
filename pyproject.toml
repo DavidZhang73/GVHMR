@@ -14,3 +14,14 @@ exclude = '''
     | dist
 )/
 '''
+
+# https://docs.astral.sh/ruff/configuration/
+[tool.ruff]
+line-length = 120
+select = [
+    "F",  # pyflakes
+    "E",  # pycodestyle errors
+    "W",  # pycodestyle warnings
+    "UP", # pyupgrade
+]
+ignore = ["F401"]

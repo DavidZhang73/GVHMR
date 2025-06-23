@@ -25,7 +25,7 @@ scikit-image
 termcolor
 einops
 imageio==2.34.1
-av  # imageio[pyav], improved performance over imageio[ffmpeg]
+av<14 # imageio[pyav], improved performance over imageio[ffmpeg]
 joblib
 
 # Diffusion
@@ -45,3 +45,9 @@ pycolmap
 ultralytics==8.2.42  # YOLO
 cython_bbox
 lapx
+
+# ProjectMay
+celery
+
+# MotionExport
+pygltflib
